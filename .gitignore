@@ -1,0 +1,7 @@
+venv*
+code-chall*
+.DS_STORE
+.python-version
+.idea
+*.pyc
+__pycache__
