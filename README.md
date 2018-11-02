@@ -8,7 +8,7 @@ The tool takes three inputs:
 
 > Note: Please use python version <b>3.4.1</b> or greater.
 
-####Running the code
+### Running the code
 * Create a virtualenv, if you want to keep your global space clean.
     * `pip install virtualenv`
     * `virtual env --python=<path_python> <virtualenv_name>`
@@ -20,11 +20,11 @@ The tool takes three inputs:
     
 > Note: To get the list of options supported by the tool, run - python reconstruct_document/run.py --help
 
-####Tests
+#### Tests
 * The tool is shipped with a test suite for the Reconstruction class. To run the tests run the following command from the project's home directory:
     * `python -m unittest -v test.reconstruct_document.test_reconstruction`
 
-####Usage
+#### Usage
 * Generating executables
     * Make sure all the project dependencies are installed - `pip install -r requirements.txt`
     * We will be using `pyinstaller` to generate executable binary.
